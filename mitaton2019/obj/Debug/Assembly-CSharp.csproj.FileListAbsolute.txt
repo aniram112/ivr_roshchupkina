@@ -1,0 +1,2 @@
+/Users/MarinaRoshupkina/mitaton2019/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+/Users/MarinaRoshupkina/mitaton2019/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
