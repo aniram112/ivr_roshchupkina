@@ -14,6 +14,9 @@ public class Guard : MonoBehaviour
     private Transform target;
     public Joystick joystick;
     public GameObject tar;
+    public static bool noticed = false;
+
+
     public int FacingRight;
     public int flag;
 
@@ -26,6 +29,7 @@ public class Guard : MonoBehaviour
         localScale = transform.localScale;
         Physics2D.queriesStartInColliders = false;
         target = tar.GetComponent<Transform>();
+
     }
 
     // Update is called once per frame
@@ -33,13 +37,15 @@ public class Guard : MonoBehaviour
     {
         //RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, transform.right * q, distance);
 
-        if ((((target.position.x <= transform.position.x) && (FacingRight == -1)) || ((target.position.x >= transform.position.x) && (FacingRight == 1))) && (Mathf.Abs(target.position.y - transform.position.y) <= 100))
+        if ((((target.position.x <= transform.position.x) && (FacingRight == -1)) || ((target.position.x >= transform.position.x) && (FacingRight == 1))) && (Mathf.Abs(target.position.y - transform.position.y) <= 100) && tar.active)
         {
-           
-            //Debug.DrawLine(transform.position, hitinfo.point, Color.red);
-      
 
+            //Debug.DrawLine(transform.position, hitinfo.point, Color.red);
+
+            noticed = true;
+            Debug.Log(noticed);
             transform.position = Vector2.MoveTowards(transform.position, new Vector2(target.position.x, transform.position.y), speed * 3 * Time.deltaTime);
+
         }
 
 
@@ -48,17 +54,20 @@ public class Guard : MonoBehaviour
         else
         {
             //Debug.DrawLine(transform.position, transform.position + transform.right * q * distance, Color.green);
-
+          
+         
             transform.position = Vector2.MoveTowards(transform.position, movespots[i].position, speed * Time.deltaTime);
+          
             if (Vector2.Distance(transform.position, movespots[i].position) < 0.2f)
             {
                 if (waittime <= 0)
                 {
                     if (i == 0) i = 1;
                     else i = 0;
-
+                    noticed = false;
+                    Debug.Log(noticed);
                     FacingRight *= -1;
-                    waittime -= Time.deltaTime;
+                    waittime = startwaittime;
                     localScale.x *= -1;
                     transform.localScale = localScale;
                 }

@@ -62,9 +62,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Achievement.cs" />
+    <Compile Include="Assets\AchievementDatabase.cs" />
+    <Compile Include="Assets\AchievementDatabaseEditor.cs" />
+    <Compile Include="Assets\AchievementDropdown.cs" />
+    <Compile Include="Assets\AchievementManager.cs" />
+    <Compile Include="Assets\AchievementNotificationController.cs" />
+    <Compile Include="Assets\Achievements.cs" />
+    <Compile Include="Assets\Button.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\gg.cs" />
     <Compile Include="Assets\Guard.cs" />
+    <Compile Include="Assets\Hidding.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
@@ -74,7 +83,11 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\LevelControl.cs" />
     <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\OpenAch.cs" />
+    <Compile Include="Assets\Pause.cs" />
     <Compile Include="Assets\PlayGame.cs" />
+    <Compile Include="Assets\ReorderableList\Attributes\ReorderableAttribute.cs" />
+    <Compile Include="Assets\ReorderableList\ReorderableArray.cs" />
     <Compile Include="Assets\Stairs.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -109,6 +122,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Trophies.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
