@@ -66,6 +66,8 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
+    <Compile Include="Assets\ReorderableList\Editor\ReorderableDrawer.cs" />
+    <Compile Include="Assets\ReorderableList\Editor\ReorderableList.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/MarinaRoshupkina/mitaton2019/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

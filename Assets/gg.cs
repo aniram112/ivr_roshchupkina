@@ -11,9 +11,18 @@ public class gg : MonoBehaviour
     private bool facingRight = true;
     private Vector3 localScale;
     public Joystick joystick;
+    public static bool able_to_hide = false;
+    private bool ntcd;
+    private bool busted;
+    public GameObject death;
+    public GameObject pau;
+    public GameObject joy; 
+    public GameObject but;
+
+
     // Use this for initialization
     private void Start()
-    {
+    {   
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         localScale = transform.localScale;
@@ -23,6 +32,7 @@ public class gg : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        ntcd = Guard.noticed;
         dirX = joystick.Horizontal * moveSpeed;
 
 
@@ -51,4 +61,25 @@ public class gg : MonoBehaviour
 
 
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Spot") && ntcd== false)
+        {
+            able_to_hide = true;
+        }
+        else able_to_hide = false;
+
+        if (other.CompareTag("Guard")){
+            death.SetActive(true);
+            but.SetActive(false);
+            joy.SetActive(false);
+            pau.SetActive(false);
+            Time.timeScale = 0f;
+
+
+        }
+
+    }
+
 }
