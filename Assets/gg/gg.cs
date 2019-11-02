@@ -14,15 +14,18 @@ public class gg : MonoBehaviour
     public static bool able_to_hide = false;
     private bool ntcd;
     private bool busted;
-    public GameObject death;
-    public GameObject pau;
-    public GameObject joy; 
-    public GameObject but;
+    public AchievementDatabase database;
+    public Trophies locked;
+    public AchievementNotificationController achievementNotificationController;
+    //public GameObject one;
+
+    public Death ded;
 
 
     // Use this for initialization
     private void Start()
-    {   
+    {
+       
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         localScale = transform.localScale;
@@ -34,12 +37,16 @@ public class gg : MonoBehaviour
     {
         ntcd = Guard.noticed;
         dirX = joystick.Horizontal * moveSpeed;
-
+        
 
         if (Mathf.Abs(dirX) > 0 && rb.velocity.y == 0)
             anim.SetBool("isRunning", true);
         else
             anim.SetBool("isRunning", false);
+
+        if (QTE.failed){
+            moveSpeed = 300f;
+        }
     }
 
     private void FixedUpdate()
@@ -71,15 +78,35 @@ public class gg : MonoBehaviour
         else able_to_hide = false;
 
         if (other.CompareTag("Guard")){
-            death.SetActive(true);
-            but.SetActive(false);
-            joy.SetActive(false);
-            pau.SetActive(false);
-            Time.timeScale = 0f;
-
+            StartCoroutine(myCor());
+        }
+        if (other.name == "QTEStart" && !QTE.done)
+        {
+            moveSpeed = 0f;
+           //one.SetActive(true);
 
         }
+        if (other.name == "QTEFinish")
+        {
+            moveSpeed = 300f;
+        }
+
 
     }
+    IEnumerator myCor()
+    {
+        if (locked.GetLock(4) == 0)
+        {
+            achievementNotificationController.ShowNotification(database.achievements[4]);
+            locked.Unlock(4);
+            moveSpeed = 0f;
+            yield return new WaitForSeconds(3);
+
+        }
+        ded.Dead();
+
+    }
+
+
 
 }
