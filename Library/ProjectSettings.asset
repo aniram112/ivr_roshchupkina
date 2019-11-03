@@ -5,7 +5,11 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 16
 <<<<<<< HEAD
+<<<<<<< HEAD
   productGUID: 3fac617b524674e92b3f201317d2572e
+=======
+  productGUID: 8d4cc39353bbb41bb92a60a1f67a3f45
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   productGUID: 8d4cc39353bbb41bb92a60a1f67a3f45
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -52,7 +56,11 @@ PlayerSettings:
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ActiveColorSpace: 1
+=======
+  m_ActiveColorSpace: 0
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   m_ActiveColorSpace: 0
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -77,7 +85,11 @@ PlayerSettings:
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   runInBackground: 0
+=======
+  runInBackground: 1
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   runInBackground: 1
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -119,7 +131,11 @@ PlayerSettings:
   xboxOneDisableEsram: 0
   xboxOnePresentImmediateThreshold: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   switchQueueCommandMemory: 1048576
+=======
+  switchQueueCommandMemory: 0
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   switchQueueCommandMemory: 0
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -136,7 +152,11 @@ PlayerSettings:
     16:9: 1
     Others: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   bundleVersion: 1.0
+=======
+  bundleVersion: 0.1
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   bundleVersion: 0.1
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -180,7 +200,12 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
 <<<<<<< HEAD
+<<<<<<< HEAD
   applicationIdentifier: {}
+=======
+  applicationIdentifier:
+    Standalone: com.Company.ProductName
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   applicationIdentifier:
     Standalone: com.Company.ProductName
@@ -200,7 +225,11 @@ PlayerSettings:
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   StripUnusedMeshComponents: 0
+=======
+  StripUnusedMeshComponents: 1
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   StripUnusedMeshComponents: 1
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -278,6 +307,7 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   clonedFromGUID: 00000000000000000000000000000000
   templatePackageId: 
   templateDefaultScene: 
@@ -286,6 +316,8 @@ PlayerSettings:
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
 =======
+=======
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   clonedFromGUID: 5f34be1353de5cf4398729fda238591b
   templatePackageId: com.unity.template.2d@2.3.2
   templateDefaultScene: Assets/Scenes/SampleScene.unity
@@ -293,6 +325,9 @@ PlayerSettings:
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: '{inproject}: '
+<<<<<<< HEAD
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
+=======
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
@@ -313,8 +348,13 @@ PlayerSettings:
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
+=======
+  - m_BuildTarget: AndroidPlayer
+    m_APIs: 150000000b000000
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000
@@ -456,7 +496,11 @@ PlayerSettings:
   switchUserAccountLockEnabled: 0
   switchSystemResourceMemory: 16777216
 <<<<<<< HEAD
+<<<<<<< HEAD
   switchSupportedNpadStyles: 6
+=======
+  switchSupportedNpadStyles: 3
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   switchSupportedNpadStyles: 3
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -505,7 +549,11 @@ PlayerSettings:
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   ps4EnterButtonAssignment: 2
+=======
+  ps4EnterButtonAssignment: 1
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   ps4EnterButtonAssignment: 1
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -518,7 +566,11 @@ PlayerSettings:
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
 <<<<<<< HEAD
+<<<<<<< HEAD
   ps4Passcode: 5PN2qmWqBlQ9wQj99nsQzldVI5ZuGXbE
+=======
+  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -535,7 +587,11 @@ PlayerSettings:
   ps4UseAudio3dBackend: 0
   ps4SocialScreenEnabled: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   ps4ScriptOptimizationLevel: 2
+=======
+  ps4ScriptOptimizationLevel: 0
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   ps4ScriptOptimizationLevel: 0
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -560,7 +616,11 @@ PlayerSettings:
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   webGLMemorySize: 32
+=======
+  webGLMemorySize: 16
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   webGLMemorySize: 16
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -574,7 +634,11 @@ PlayerSettings:
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   webGLCompressionFormat: 0
+=======
+  webGLCompressionFormat: 1
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   webGLCompressionFormat: 1
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -596,7 +660,11 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   metroPackageName: mitaton2019
+=======
+  metroPackageName: Template_2D
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   metroPackageName: Template_2D
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -607,7 +675,11 @@ PlayerSettings:
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
 <<<<<<< HEAD
+<<<<<<< HEAD
   metroApplicationDescription: mitaton2019
+=======
+  metroApplicationDescription: Template_2D
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   metroApplicationDescription: Template_2D
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -661,7 +733,12 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   cloudServicesEnabled: {}
+=======
+  cloudServicesEnabled:
+    UNet: 1
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   cloudServicesEnabled:
     UNet: 1
@@ -678,7 +755,11 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   facebookSdkVersion: 
+=======
+  facebookSdkVersion: 7.9.4
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   facebookSdkVersion: 7.9.4
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -690,15 +771,21 @@ PlayerSettings:
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
 <<<<<<< HEAD
+<<<<<<< HEAD
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   projectName: 
   organizationId: 
 =======
+=======
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   cloudProjectId: e0a2bb72-d320-4130-8783-48ebd5e900b0
   framebufferDepthMemorylessMode: 0
   projectName: mitaton2019
   organizationId: aniram112
+<<<<<<< HEAD
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
+=======
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

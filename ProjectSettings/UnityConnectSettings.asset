@@ -5,7 +5,11 @@ UnityConnectSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Enabled: 1
+=======
+  m_Enabled: 0
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   m_Enabled: 0
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
@@ -17,7 +21,11 @@ UnityConnectSettings:
   CrashReportingSettings:
     m_EventUrl: https://perf-events.cloud.unity3d.com
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Enabled: 0
+=======
+    m_Enabled: 1
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
     m_Enabled: 1
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769

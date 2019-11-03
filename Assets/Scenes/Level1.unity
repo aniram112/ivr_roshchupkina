@@ -438,9 +438,13 @@ Transform:
   m_GameObject: {fileID: 10911969}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   m_LocalPosition: {x: 498, y: 257, z: 0}
 
+=======
+  m_LocalPosition: {x: 498, y: 257, z: 0}
+>>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 =======
   m_LocalPosition: {x: 498, y: 257, z: 0}
 >>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
