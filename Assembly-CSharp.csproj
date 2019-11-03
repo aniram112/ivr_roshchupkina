@@ -65,7 +65,6 @@
     <Compile Include="Assets\AchDesc.cs" />
     <Compile Include="Assets\Achievement.cs" />
     <Compile Include="Assets\AchievementDatabase.cs" />
-    <Compile Include="Assets\AchievementDatabaseEditor.cs" />
     <Compile Include="Assets\AchievementDropdown.cs" />
     <Compile Include="Assets\AchievementManager.cs" />
     <Compile Include="Assets\AchievementNotificationController.cs" />
