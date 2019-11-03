@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
+
+
+
     public Trophies locked;
     public Transform player;
     public Transform cam;
     public Transform qte;
-
 
 
     public void Menu()
@@ -23,6 +25,7 @@ public class Pause : MonoBehaviour
     {
         Time.timeScale = 1f;
     }
+
     public void Restart(){
         if (locked.GetLock(1)==0) { SceneManager.LoadScene("Level1"); }
         else if (locked.GetLock(2) == 0 && locked.GetLock(1) == 1) { player.transform.position = cam.transform.position; }
@@ -32,6 +35,7 @@ public class Pause : MonoBehaviour
 
 
     }
+
 
 
 

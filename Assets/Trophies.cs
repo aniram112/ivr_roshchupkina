@@ -5,6 +5,7 @@ using UnityEngine;
 public class Trophies : MonoBehaviour
 {
     public static int[] Locked = new  int[5] {0,0,0,0,0};
+
     public static string[] Dates = new string[5] { "0","0","0","0","0" };
     public GameObject[] ach = new GameObject[5];
 
@@ -17,12 +18,14 @@ public class Trophies : MonoBehaviour
                
             else ach[i].SetActive(true);
 
+
         }
     }
 
     public void Unlock(int a){
         Locked[a] = 1;
     }
+
     public int GetLock(int a)
     {
         return Locked[a];
@@ -35,4 +38,5 @@ public class Trophies : MonoBehaviour
     public void Date(int a){
         Dates[a] = System.DateTime.Now.ToString();
     }
+
 }

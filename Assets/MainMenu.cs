@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
     public Trophies locked;
     public void PlayGame(){
         if (locked.GetLock(0) == 0 || locked.GetLock(4) == 1) {
@@ -18,6 +19,7 @@ public class MainMenu : MonoBehaviour
             SceneManager.LoadScene("Level1");
         }
        
+
     }
 
 }

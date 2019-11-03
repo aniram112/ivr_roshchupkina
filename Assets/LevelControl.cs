@@ -19,6 +19,7 @@ public class LevelControl : MonoBehaviour
         locked.Date(0);
         yield return new WaitForSeconds(3);
         //task.SetActive(true);
+
         SceneManager.LoadScene(levelName);
     }
    
