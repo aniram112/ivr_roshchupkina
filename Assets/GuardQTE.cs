@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Guard : MonoBehaviour
+public class GuardQTE : MonoBehaviour
 {
     public float speed;
-    public Transform[] movespots;
+    public Transform waitspot;
     private int i;
     public float startwaittime;
     private float waittime;
@@ -14,6 +14,11 @@ public class Guard : MonoBehaviour
     private Transform target;
     public Joystick joystick;
     public GameObject tar;
+    public static bool noticed = false;
+    public bool failed;
+
+
+
     public int FacingRight;
     public int flag;
 
@@ -22,10 +27,12 @@ public class Guard : MonoBehaviour
     {
         waittime = startwaittime;
         i = 0;
-        flag =0;
+        flag = 0;
         localScale = transform.localScale;
         Physics2D.queriesStartInColliders = false;
         target = tar.GetComponent<Transform>();
+        failed = false;
+
     }
 
     // Update is called once per frame
@@ -33,13 +40,14 @@ public class Guard : MonoBehaviour
     {
         //RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, transform.right * q, distance);
 
-        if ((((target.position.x <= transform.position.x) && (FacingRight == -1)) || ((target.position.x >= transform.position.x) && (FacingRight == 1))) && (Mathf.Abs(target.position.y - transform.position.y) <= 100))
+        if ((((target.position.x <= transform.position.x) && (FacingRight == -1)) || ((target.position.x >= transform.position.x) && (FacingRight == 1))) && (Mathf.Abs(target.position.y - transform.position.y) <= 100) && tar.active)
         {
-           
-            //Debug.DrawLine(transform.position, hitinfo.point, Color.red);
-      
 
+            //Debug.DrawLine(transform.position, hitinfo.point, Color.red);
+
+            noticed = true;
             transform.position = Vector2.MoveTowards(transform.position, new Vector2(target.position.x, transform.position.y), speed * 3 * Time.deltaTime);
+
         }
 
 
@@ -49,22 +57,24 @@ public class Guard : MonoBehaviour
         {
             //Debug.DrawLine(transform.position, transform.position + transform.right * q * distance, Color.green);
 
-            transform.position = Vector2.MoveTowards(transform.position, movespots[i].position, speed * Time.deltaTime);
-            if (Vector2.Distance(transform.position, movespots[i].position) < 0.2f)
-            {
-                if (waittime <= 0)
+            if (transform.position != waitspot.position)
+            {   if (FacingRight == -1)
                 {
-                    if (i == 0) i = 1;
-                    else i = 0;
-
-                    FacingRight *= -1;
-                    waittime -= Time.deltaTime;
+                    FacingRight = 1;
                     localScale.x *= -1;
                     transform.localScale = localScale;
                 }
+                transform.position = Vector2.MoveTowards(transform.position, waitspot.position, speed * Time.deltaTime);
+            }
 
-                else waittime -= Time.deltaTime;
-
+            if (QTE.failed && !failed)
+            {
+                    //Debug.Log(QTE.failed);
+                    noticed = true;
+                    FacingRight *= -1;
+                    localScale.x *= -1;
+                    transform.localScale = localScale;
+                    failed = true;
 
             }
         }

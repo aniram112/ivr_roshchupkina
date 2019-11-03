@@ -5,10 +5,33 @@ using UnityEngine.SceneManagement;
 public class LevelControl : MonoBehaviour
 {
     public string levelName;
-    void OnTriggerEnter2D(Collider2D other)
+    private float waittime;
+    public AchievementDatabase database;
+    public Trophies locked;
+    public AchievementNotificationController achievementNotificationController;
+    public GameObject task;
+
+    IEnumerator myCor()
     {
-        if (other.CompareTag("Player")){
-            SceneManager.LoadScene(levelName);
+        task.SetActive(false);
+        achievementNotificationController.ShowNotification(database.achievements[0]);
+        locked.Unlock(0);
+        locked.Date(0);
+        yield return new WaitForSeconds(3);
+        //task.SetActive(true);
+        SceneManager.LoadScene(levelName);
+    }
+   
+    void OnTriggerEnter2D(Collider2D other)
+
+    {
+        waittime = 3;
+        if (other.CompareTag("Player"))
+        {
+            //achievementNotificationController.ShowNotification(database.achievements[0]);
+            StartCoroutine(myCor());
+            //SceneManager.LoadScene(levelName);
+          
         }
         
     }
