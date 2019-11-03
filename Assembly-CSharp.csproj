@@ -1,7 +1,4 @@
-
-<?xml version="1.0" encoding="utf-8"?>
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
@@ -65,17 +62,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-
-
     <Compile Include="Assets\AchDesc.cs" />
     <Compile Include="Assets\Achievement.cs" />
     <Compile Include="Assets\AchievementDatabase.cs" />
+    <Compile Include="Assets\AchievementDatabaseEditor.cs" />
     <Compile Include="Assets\AchievementDropdown.cs" />
     <Compile Include="Assets\AchievementManager.cs" />
     <Compile Include="Assets\AchievementNotificationController.cs" />
     <Compile Include="Assets\Achievements.cs" />
-
-
     <Compile Include="Assets\Button.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\Death.cs" />
@@ -93,9 +87,7 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\LevelControl.cs" />
     <Compile Include="Assets\MainMenu.cs" />
-
     <Compile Include="Assets\OpenAch.cs" />
-
     <Compile Include="Assets\Pause.cs" />
     <Compile Include="Assets\PlayGame.cs" />
     <Compile Include="Assets\QTE.cs" />

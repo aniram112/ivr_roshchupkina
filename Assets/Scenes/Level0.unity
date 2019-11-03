@@ -216,18 +216,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87cac646274674b1caa095ec6c031035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  levelName: MainMenu
-  database: {fileID: 11400000, guid: b06388f6b796d4d6fbe9f4bbb5c805f8, type: 2}
-  locked: {fileID: 1776430152997942348, guid: f939f24f727ad404c88d5bef809fe8d6, type: 3}
-  achievementNotificationController: {fileID: 1910844928}
-=======
   levelName: Level1
   database: {fileID: 11400000, guid: b06388f6b796d4d6fbe9f4bbb5c805f8, type: 2}
   locked: {fileID: 1776430152997942348, guid: f939f24f727ad404c88d5bef809fe8d6, type: 3}
   achievementNotificationController: {fileID: 1910844928}
   task: {fileID: 1524366714}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!61 &74891499
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -369,8 +362,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &130276535
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +516,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133617086}
   m_CullTransparentMesh: 0
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!1 &135201741
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,8 +976,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309088794}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD
-=======
 --- !u!1 &330210291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,7 +1134,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330210291}
   m_CullTransparentMesh: 0
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!1 &379422951
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,8 +2290,6 @@ MonoBehaviour:
   joystick: {fileID: 1565047093}
   joy2: 1
   joy1: 0.7
-<<<<<<< HEAD
-=======
 --- !u!1 &922538668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2481,7 +2466,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922538668}
   m_CullTransparentMesh: 0
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!1 &933616187
 GameObject:
   m_ObjectHideFlags: 0
@@ -2573,11 +2557,7 @@ GameObject:
   - component: {fileID: 953821313}
   - component: {fileID: 953821312}
   m_Layer: 5
-<<<<<<< HEAD
-  m_Name: Main Menu
-=======
   m_Name: Pause Menu
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2596,11 +2576,7 @@ RectTransform:
   m_Children:
   - {fileID: 1092910380}
   m_Father: {fileID: 1547084035}
-<<<<<<< HEAD
-  m_RootOrder: 0
-=======
   m_RootOrder: 1
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2870,11 +2846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD
-  m_IsActive: 1
-=======
   m_IsActive: 0
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!224 &1063746268
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2888,11 +2860,7 @@ RectTransform:
   m_Children:
   - {fileID: 416656845}
   m_Father: {fileID: 1547084035}
-<<<<<<< HEAD
-  m_RootOrder: 2
-=======
   m_RootOrder: 3
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3043,10 +3011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30c55760cfc2b47349b9126688df80a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
   locked: {fileID: 1776430152997942348, guid: f939f24f727ad404c88d5bef809fe8d6, type: 3}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!1 &1140580003
 GameObject:
   m_ObjectHideFlags: 0
@@ -3165,14 +3130,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fixed Joystick
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-=======
     - target: {fileID: 2929252283123773939, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3211,11 +3173,7 @@ PrefabInstance:
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-      value: 3
-=======
       value: 4
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
@@ -3929,8 +3887,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474546859}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD
-=======
 --- !u!1 &1514808357
 GameObject:
   m_ObjectHideFlags: 0
@@ -4002,7 +3958,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: -0.003, y: 0, z: 0}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!1 &1520616799
 GameObject:
   m_ObjectHideFlags: 0
@@ -4050,8 +4005,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1524366714
 GameObject:
   m_ObjectHideFlags: 0
@@ -4140,7 +4093,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524366714}
   m_CullTransparentMesh: 0
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!1 &1529295983
 GameObject:
   m_ObjectHideFlags: 0
@@ -4230,10 +4182,6 @@ GameObject:
   - component: {fileID: 1547084033}
   - component: {fileID: 1547084032}
   - component: {fileID: 1547084036}
-<<<<<<< HEAD
-  - component: {fileID: 1547084037}
-=======
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   m_Layer: 5
   m_Name: joystick
   m_TagString: Untagged
@@ -4312,18 +4260,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-<<<<<<< HEAD
-=======
   - {fileID: 133617087}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   - {fileID: 953821311}
   - {fileID: 1560533034}
   - {fileID: 1063746268}
   - {fileID: 1565047092}
-<<<<<<< HEAD
-=======
   - {fileID: 1524366715}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4344,25 +4286,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15e18d5b2d2354ad08beabfa3b29aee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
---- !u!114 &1547084037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547084031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e18d5b2d2354ad08beabfa3b29aee8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-=======
   locked: {fileID: 1776430152997942348, guid: f939f24f727ad404c88d5bef809fe8d6, type: 3}
   player: {fileID: 1737381103}
   cam: {fileID: 0}
   qte: {fileID: 0}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!1 &1560533033
 GameObject:
   m_ObjectHideFlags: 0
@@ -4381,11 +4308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD
-  m_IsActive: 1
-=======
   m_IsActive: 0
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!224 &1560533034
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4399,11 +4322,7 @@ RectTransform:
   m_Children:
   - {fileID: 838710297}
   m_Father: {fileID: 1547084035}
-<<<<<<< HEAD
-  m_RootOrder: 1
-=======
   m_RootOrder: 2
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4554,8 +4473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
 --- !u!1 &1681304942
 GameObject:
   m_ObjectHideFlags: 0
@@ -4607,7 +4524,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locked: {fileID: 1776430152997942348, guid: f939f24f727ad404c88d5bef809fe8d6, type: 3}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!1 &1733624722
 GameObject:
   m_ObjectHideFlags: 0
@@ -4862,11 +4778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737381099}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 1992, y: -483, z: 0}
-=======
   m_LocalPosition: {x: 766, y: 282, z: 0}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   m_LocalScale: {x: 114.383766, y: 109.87014, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4906,8 +4818,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 1565047093}
-<<<<<<< HEAD
-=======
   database: {fileID: 11400000, guid: b06388f6b796d4d6fbe9f4bbb5c805f8, type: 2}
   locked: {fileID: 1776430152997942348, guid: f939f24f727ad404c88d5bef809fe8d6, type: 3}
   achievementNotificationController: {fileID: 1910844928}
@@ -4991,7 +4901,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
 --- !u!1 &1910844926
 GameObject:
   m_ObjectHideFlags: 0
@@ -5709,11 +5618,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102979268}
   m_LocalRotation: {x: -0.000025372952, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: -1533, y: -489, z: 89.45462}
-=======
   m_LocalPosition: {x: -1237, y: -489, z: 89.45462}
->>>>>>> 5a1277ea4c1c9891472780e9841fd5e40b77a769
   m_LocalScale: {x: 122.53475, y: 168.89925, z: 1.3247}
   m_Children: []
   m_Father: {fileID: 1154286431}
