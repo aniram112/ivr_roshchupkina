@@ -35,8 +35,8 @@ public class QTE : MonoBehaviour
 
 
     public void ButA()
-    {
-        AisP = true;
+    {   if (!AisP) { AisP = true; }
+        else AisP = false;
     }
 
     IEnumerator myCor()
