@@ -6,12 +6,6 @@
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.Timeline.dll"
-/reference:"Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
-/reference:"Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.1.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.1.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.1.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -70,6 +64,12 @@
 /reference:"/Applications/Unity/Hub/Editor/2019.1.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.1.14f1/Unity.app/Contents/Managed/UnityEditor.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.1.14f1/Unity.app/Contents/Managed/Unity.Locator.dll"
+/reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.Timeline.dll"
+/reference:"Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+/reference:"Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.1.14f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 /reference:"/Users/MarinaRoshupkina/mitaton2019/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll"
 /reference:"/Users/MarinaRoshupkina/mitaton2019/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll"
@@ -311,7 +311,6 @@
 "Assets/AchDesc.cs"
 "Assets/Achievement.cs"
 "Assets/AchievementDatabase.cs"
-"Assets/AchievementDatabaseEditor.cs"
 "Assets/AchievementDropdown.cs"
 "Assets/AchievementManager.cs"
 "Assets/AchievementNotificationController.cs"

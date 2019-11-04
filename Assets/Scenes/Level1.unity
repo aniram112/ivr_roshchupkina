@@ -437,7 +437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10911969}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 498, y: 257, z: 0}
+  m_LocalPosition: {x: 366, y: 254, z: 0}
   m_LocalScale: {x: 114.383766, y: 109.87014, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1338,12 +1338,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7596c81e9b784f22821ad99ef6c6758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TaskText: {fileID: 260001074}
   Name: {fileID: 309713560}
   database: {fileID: 11400000, guid: b06388f6b796d4d6fbe9f4bbb5c805f8, type: 2}
   locked: {fileID: 1776430152997942348, guid: f939f24f727ad404c88d5bef809fe8d6, type: 3}
   achievementNotificationController: {fileID: 625770412}
   end: {fileID: 1153631986}
+  TaskText: {fileID: 260001074}
   task: {fileID: 1060101789}
 --- !u!61 &309713559
 BoxCollider2D:
@@ -6603,12 +6603,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7596c81e9b784f22821ad99ef6c6758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TaskText: {fileID: 260001074}
   Name: {fileID: 1473180641}
   database: {fileID: 11400000, guid: b06388f6b796d4d6fbe9f4bbb5c805f8, type: 2}
   locked: {fileID: 1776430152997942348, guid: f939f24f727ad404c88d5bef809fe8d6, type: 3}
   achievementNotificationController: {fileID: 625770412}
   end: {fileID: 1153631986}
+  TaskText: {fileID: 260001074}
   task: {fileID: 1060101789}
 --- !u!61 &1473180640
 BoxCollider2D:
@@ -9019,12 +9019,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7596c81e9b784f22821ad99ef6c6758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TaskText: {fileID: 260001074}
   Name: {fileID: 1978915223}
   database: {fileID: 11400000, guid: b06388f6b796d4d6fbe9f4bbb5c805f8, type: 2}
   locked: {fileID: 1776430152997942348, guid: f939f24f727ad404c88d5bef809fe8d6, type: 3}
   achievementNotificationController: {fileID: 625770412}
   end: {fileID: 1153631986}
+  TaskText: {fileID: 260001074}
   task: {fileID: 1060101789}
 --- !u!61 &1978915222
 BoxCollider2D:
@@ -9060,7 +9060,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978915220}
   m_LocalRotation: {x: -0.000025372952, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1734, y: 956, z: 0}
+  m_LocalPosition: {x: 1755, y: 956, z: 0}
   m_LocalScale: {x: 122.53475, y: 132.47, z: 1.3247}
   m_Children: []
   m_Father: {fileID: 0}

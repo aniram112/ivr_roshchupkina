@@ -99,6 +99,7 @@ public class gg : MonoBehaviour
         {
             achievementNotificationController.ShowNotification(database.achievements[4]);
             locked.Unlock(4);
+            locked.Date(4);
             moveSpeed = 0f;
             yield return new WaitForSeconds(3);
 

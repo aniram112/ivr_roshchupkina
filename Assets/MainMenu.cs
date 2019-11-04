@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 
     public Trophies locked;
     public void PlayGame(){
-        if (locked.GetLock(0) == 0 || locked.GetLock(4) == 1) {
+        if (locked.GetLock(0) == 0 || locked.GetLock(3) == 1) {
             Time.timeScale = 1f;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
