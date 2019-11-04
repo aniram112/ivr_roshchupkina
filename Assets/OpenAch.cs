@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class OpenAch : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class OpenAch : MonoBehaviour
     public AchievementDatabase database;
     public Trophies locked;
     public AchievementNotificationController achievementNotificationController;
+    public Death end;
+    [SerializeField] Text TaskText;
+    public GameObject task;
 
     IEnumerator myCor()
     {
@@ -30,11 +34,22 @@ public class OpenAch : MonoBehaviour
                 i=0;
                 break;
         }
-    
 
-        achievementNotificationController.ShowNotification(database.achievements[i]);
-        locked.Unlock(i);
+        if (locked.GetLock(i) == 0)
+        {
+            task.SetActive(false);
+            achievementNotificationController.ShowNotification(database.achievements[i]);
+            locked.Unlock(i);
+            locked.Date(i);
+        }
         yield return new WaitForSeconds(3);
+        task.SetActive(true);
+        if (i==3){
+            end.End();
+        }
+        if (i==1){
+            TaskText.text = "go upstairs";
+        }
 
     }
 
